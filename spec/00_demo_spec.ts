@@ -4,6 +4,6 @@ describe('writing some tests', () => {
 
         const answer = a + b;
 
-        expect(answer).toBe(99);
+        expect(answer).toBe(25);
     })
 })
