@@ -171,7 +171,7 @@ describe('objects', () => {
                     lastName: 'Ford'
                 },
                 roles: [
-                    'Han Solo'
+                    'Han Solo',
                     'Decker'
                 ]
             };

@@ -96,9 +96,6 @@ describe('data types', () => {
             const msg = "Hello";
             expect(msg).not.toBe("Hi");
 
-            msg = "Hi";
-            expect(msg).toBe("Hi");
-
             const favoriteNumbers = [9, 20, 108];
             //expect(favoriteNumbers).toBe([9, 20, 108]); // toBe doesnt work
             expect(favoriteNumbers).toEqual([9, 20, 108]);

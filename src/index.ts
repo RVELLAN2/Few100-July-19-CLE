@@ -1,8 +1,6 @@
-const nameInput = document.getElementById('name') as HTMLInputElement;
-const doitButton = document.getElementById('doit') as HTMLInputElement;
-const messageOutput = document.getElementById('message');
+import './styles.css';
+import { ready } from './ready';
+import { runApp } from './app';
 
-doitButton.addEventListener('click', function () {
-    const enteredname = nameInput.value;
-    messageOutput.innerText = enteredname.toUpperCase();
-})
+//ready(() => console.log('Ready to party!'))
+ready(runApp)
